@@ -1,0 +1,5 @@
+enum Language{
+	
+	KANNADA,ENGLISH,HINDI,URDU,TELGU;
+	
+}

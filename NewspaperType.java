@@ -1,0 +1,4 @@
+enum NewspaperType{
+	
+	DAILY,WEEKLY,MONTHLY,WEEKLYTWICE;
+}
