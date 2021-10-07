@@ -1,0 +1,4 @@
+enum FoodItemType
+{
+	SWEET,KHAARA,BITTER,SALTY,OILY,MASALA;
+}
