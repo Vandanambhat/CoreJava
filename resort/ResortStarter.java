@@ -1,6 +1,5 @@
 package com.xworkz.crud.resort;
 
-import com.xworkz.crud.island.IslandAdd.AddIsland;
 import com.xworkz.crud.resort.resortAdd.AddResort;
 
 public class ResortStarter {
