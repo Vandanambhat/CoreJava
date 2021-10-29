@@ -139,9 +139,12 @@ public class LawyerDAO {
 
 			LawyerDTO lawyerRef = this.lawyerDTOs[index];
 
-			if (maximum < lawyerRef.getExperience() && maximum != null) {
-
-				maximum = lawyerRef.getExperience();
+			if (lawyerRef != null) {
+				
+				Float fig = lawyerRef.getExperience();
+				if(maximum < fig ) {
+					maximum = fig;
+				}
 
 			} else {
 				System.err.println("lawyer pointing to null");
