@@ -1,0 +1,15 @@
+class ForestGrowing{
+	
+	public static void main(String[] trees)
+	{
+		
+		Forest forest=new Forest("Uttara Kannada","Karantaka",NameOfForest.AMAZON);
+		System.out.println(forest.forestReserved);
+		System.out.println(forest.forestName);
+		System.out.println(forest.forestState);
+		System.out.println(forest.forestLocation);
+		
+		
+		
+	}
+}
